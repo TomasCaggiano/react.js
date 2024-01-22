@@ -1,7 +1,7 @@
 import React from 'react' 
 import Contador from '../contador/contador'
 
-const Product = ((img,title,descripcion,precio)) => {
+const Product = (img,title,descripcion,precio) => {
     return (
         <div>
             <img src={img} width="30px" height="30px"  alt="img1" />
