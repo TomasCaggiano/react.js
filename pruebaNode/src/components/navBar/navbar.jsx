@@ -18,5 +18,5 @@ function NavBar() {
         </Container>
       </Navbar> </>
   );
-}
-export default NavBar
+};
+export default NavBar;

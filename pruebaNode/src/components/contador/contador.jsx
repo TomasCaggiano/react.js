@@ -4,11 +4,11 @@ const Contador = () => {
     const [contador, setContador] = useState(1)
     
     const sumar =()=>{
-        setContador(contador + 1, contador<5)
-    }
+        setContador(contador + 1)
+    };
     const restar =()=>{
-        setContador(contador - 1, contador>=1)
-    }
+        setContador(contador - 1)
+    };
 
     return(
         <div>
@@ -16,8 +16,8 @@ const Contador = () => {
             <h2>{contador}</h2>
             <button onClick={sumar}>+</button>
         </div>
-    )
+    );
 
-}
+};
 
 export default Contador

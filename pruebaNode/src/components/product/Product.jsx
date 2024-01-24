@@ -1,10 +1,10 @@
 import React from 'react' 
 import Contador from '../contador/contador'
 
-const Product = (img,title,descripcion,precio) => {
+const Product = ((img,title,descripcion, precio)) => {
     return (
         <div>
-            <img src={img} width="30px" height="30px"  alt="img1" />
+            <img src={img} width="30px" height="30px"  alt="img" />
             <h1>{title}</h1>
             <p>{descripcion}</p>
             <p>${precio}</p>
@@ -12,7 +12,7 @@ const Product = (img,title,descripcion,precio) => {
             <h2>{contador}</h2>
             <button onClick={sumar}>+</button></div>
         </div>
-    )
-}
+    );
+};
 
 export default Product
