@@ -8,9 +8,7 @@ const Product = ((img,title,descripcion, precio)) => {
             <h1>{title}</h1>
             <p>{descripcion}</p>
             <p>${precio}</p>
-        <div><button onClick={restar}>-</button>
-            <h2>{contador}</h2>
-            <button onClick={sumar}>+</button></div>
+            <Product/>
         </div>
     );
 };
