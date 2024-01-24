@@ -1,4 +1,4 @@
-import { useState } from "react";
+import react, { useState } from "react";
 
 const Contador = () => {
     const [contador, setContador] = useState(1)
